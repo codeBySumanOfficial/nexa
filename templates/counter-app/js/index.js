@@ -14,7 +14,7 @@ renderer.setView(root);
 router.setRoute(["/home", "/", "/index.html"], safeLoad(lazyLoad(() => import("./pages/home-page.js"))));
 router.setRoute("*", safeLoad(lazyLoad(() => import("./pages/fallback-page.js"))));
 
-router.setBase("nexa");
+router.setBase("/");
 router.navigate(getCurrentFullPath(), true);
 
 interceptLinks([root], router);

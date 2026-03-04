@@ -53,7 +53,7 @@ subscribe(() => {
 Clone the repository and install the CLI globally:
 
 ```bash
-git clone https://github.com/your-org/nexa.git
+git clone https://github.com/codeBySumanOfficial/nexa.git
 cd nexa
 npm install -g .
 ```
