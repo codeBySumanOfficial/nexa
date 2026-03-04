@@ -1,0 +1,8 @@
+{
+    "name": "nexa-cli",
+    "version": "1.0.0",
+    "bin": {
+        "nexa": "./bin/nexa-cli.js"
+    },
+    "type": "module"
+}
