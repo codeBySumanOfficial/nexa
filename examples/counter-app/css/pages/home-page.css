@@ -1,0 +1,33 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.home-page h1{
+    font-size: clamp(16px, 32px, 64px);
+    text-align: center;
+}
+
+.home-page button{
+    cursor: pointer;
+    margin: var(--space-md);
+    background: red;    
+    width: 150px;
+    padding: var(--space-sm);
+    border: none;
+    border-radius: var(--radius-md);
+    color: var(--text-clr);
+}
+
+.home-page b{
+    padding: var(--space-sm);
+    font-size: clamp(16px, 24px, 32px);
+    background: linear-gradient(125deg, red, rgb(2, 160, 212));
+    color: transparent;
+    background-clip: text;
+    border: 3px solid red;
+    border-radius: var(--radius-md);
+}

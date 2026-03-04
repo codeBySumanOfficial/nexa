@@ -1,0 +1,24 @@
+.fallback-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.fallback-page h1 {
+    font-size: clamp(16px, 32px, 64px);
+    text-align: center;
+}
+
+.fallback-page a {
+    text-decoration: none;
+    cursor: pointer;
+    margin: var(--space-md);
+    background: red;
+    width: 150px;
+    padding: var(--space-sm);
+    border: none;
+    border-radius: var(--radius-md);
+    color: var(--text-clr);
+}
